@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cup</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="get-data">
+        <h2>
+            Add Team
+        </h2>
+        <form class="data">
+            <div class="input-data">
+                <label class="label" for="team">Team :</label>
+                <input class="input" type="text" id="team">
+            </div>
+            <div class="input-data">
+                <label class="label" for="cont">Continent :</label>
+                <select class="input" name="cont" id="cont">
+                    <option selected value="uefa">Europe</option>
+                    <option value="caf">Africa</option>
+                    <option value="afc-ofc">Asia/Oceania</option>
+                    <option value="conmebol">South America</option>
+                    <option value="concacaf">North America</option>
+                </select>
+            </div>
+            <div class="input-data">
+                <label class="label" for="lvl">Level :</label>
+                <select class="input" name="lvl" id="lvl">
+                    <option selected value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <a id="addBtn" class="btn">Add</a>
+        </form>
+        <div class="note">
+            <p></p>
+        </div>
+    </div>
+    <div class="levels">
+        <div class="level box">
+            <h2 class="box-title">Level 1</h2>
+            <ul class="teams">
+            </ul>
+        </div>
+        <div class="level box">
+            <h2 class="box-title">Level 2</h2>
+            <ul class="teams">
+            </ul>
+        </div>
+        <div class="level box">
+            <h2 class="box-title">Level 3</h2>
+            <ul class="teams">
+            </ul>
+        </div>
+        <div class="level box">
+            <h2 class="box-title">Level 4</h2>
+            <ul class="teams">
+            </ul>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
