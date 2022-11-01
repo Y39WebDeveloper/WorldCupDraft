@@ -53,7 +53,16 @@ body{
     border-radius: 10px;
     padding: 10px;
     text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: .3s;
 }
+.box ul li span{
+    cursor: pointer;
+    display: none;
+}
+.box ul li:hover span{display: block;}
 .box ul li:not(:last-child){margin-bottom: 10px;}
 .btn{
     padding: 5px 10px;
@@ -70,6 +79,7 @@ body{
 }
 .note p{
     margin-top: 15px;
+    text-transform: capitalize;
 }
 /* Components */
 .get-data{
