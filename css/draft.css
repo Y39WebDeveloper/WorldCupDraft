@@ -140,7 +140,7 @@ ul.teams-box {
         align-items: center;
     }
     .btn{
-        position: absolute;
+        position: fixed;
         top: 50%;
         right: 10%;
         background-color: var(--resin-color);
