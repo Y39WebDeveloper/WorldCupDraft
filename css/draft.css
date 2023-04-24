@@ -140,10 +140,14 @@ ul.teams-box {
         align-items: center;
     }
     .btn{
-        position: fixed;
-        right: 51px;
-        top: 840px;
+        position: absolute;
+        top: 50%;
+        right: 10%;
         background-color: var(--resin-color);
+        opacity: .7;
+    }
+    .btn:hover{
+        opacity: 1;
     }
 }
 @media (max-width: 575px) {
@@ -169,14 +173,12 @@ ul.teams-box {
         margin-top: 10px;
     }
     .btn{
-        top: 800px;
-        right: 30px;
+        
     }
 }
 @media (max-width: 350px) {
     .box{
-        padding: 5px;
-        border-radius: 5px;
+        
     }
     .teams .levels {
         grid-template-columns: repeat(2, minmax(100px, 1fr));
@@ -185,7 +187,6 @@ ul.teams-box {
         font-size: 14px;
     }
     .btn{
-        top: 650px;
-        right: 11px;
+        
     }
 }
